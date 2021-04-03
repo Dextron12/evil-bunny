@@ -170,7 +170,6 @@ class Editor:
 ##                                    tile_data.remove(t)
             if click[0] == 1:
                 tile = [mouse_x - camera_x, mouse_y - camera_y, brush]
-                print(mouse_x, camera_x)
                 found = False
                 for t in tile_data:
                     if t[0] == tile[0] and t[1] == tile[1]:
